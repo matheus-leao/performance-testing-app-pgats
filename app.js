@@ -21,4 +21,5 @@ app.get('/', (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Acesse a documentação Swagger em http://localhost:${PORT}/swagger`);
 });
